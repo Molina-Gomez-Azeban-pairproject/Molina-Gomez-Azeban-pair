@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center;
 }
-body{
+*{
     background: red;
 }
 h4{
@@ -17,4 +17,11 @@ h4{
     display: flex;
     justify-content: center;
     align-items: flex-end;
+}
+.logo{
+    background-image: url("/img/logo.png");
+    background-color: red;
+    height: 300px;
+    width: 300px;
+    border-radius: 100px;
 }
