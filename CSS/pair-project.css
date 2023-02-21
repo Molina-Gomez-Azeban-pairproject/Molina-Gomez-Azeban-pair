@@ -1,0 +1,20 @@
+.intro{
+    font-family: 'Anton', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.part2{
+    font-family: 'Anton', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+body{
+    background: red;
+}
+h4{
+    font-family: 'Anton', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
