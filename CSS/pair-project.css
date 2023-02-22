@@ -24,6 +24,7 @@ h4{
 .header{
     display: flex;
     justify-content: space-between;
+    border: 2px solid purple;
 }
 .firstImg{
     margin-left: 30px;
@@ -111,9 +112,9 @@ h4{
 /*    display: flex;*/
 /*    justify-content: flex-start;*/
 /*}*/
-.project, .projectTwo{
-    font-family: 'Abel', sans-serif;
-}
+/*.project, .projectTwo{*/
+/*    font-family: 'Abel', sans-serif;*/
+/*}*/
 /*.col-1:nth-child(2){*/
 /*    background-color: blue;*/
 /*    display: flex;*/
@@ -211,7 +212,10 @@ h4{
 }
 .col-5{
     font-family: 'Abel', sans-serif;
+    border: 1px solid black;
 }
 .col-1{
     font-family: 'Anton', sans-serif;
+    border: 1px solid black;
+    margin-left: 15px;
 }
