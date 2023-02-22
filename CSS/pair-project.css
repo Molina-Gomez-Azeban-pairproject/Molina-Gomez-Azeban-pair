@@ -34,6 +34,9 @@ h4{
     border: 2px solid red;
     display: flex;
     align-items: center;
+    font-size: 2rem;
+    height: 40px;
+    width: 40px;
 }
 .container {
     display: flex;
