@@ -1,6 +1,7 @@
 *{
-    background: #E6E6E6;
+    background: #F0F0F0;
 }
+
 .intro{
     font-family: 'Anton', sans-serif;
     display: flex;
@@ -11,6 +12,7 @@
     font-family: 'Anton', sans-serif;
     display: flex;
     justify-content: center;
+
 }
 h4{
     font-family: 'Anton', sans-serif;
@@ -24,27 +26,33 @@ h4{
 .header{
     display: flex;
     justify-content: space-between;
-    border: 2px solid purple;
+    /*border: 2px solid purple;*/
 }
 .firstImg{
-    margin-left: 30px;
-    border: 2px solid red;
+    margin-left: 10px;
+    margin-top: 10px;
+    /*border: 2px solid red;*/
 }
 .fa-bars{
-    margin-right: 30px;
-    border: 2px solid red;
+    margin-top: 15px;
+    margin-right: 10px;
+    /*border: 2px solid red;*/
+    border-style:  ridge;
+    border-radius: 10px;
     display: flex;
     align-items: center;
+    justify-content: center;
     font-size: 2rem;
     height: 40px;
-    width: 40px;
+    width: 50px;
 }
 .container {
     display: flex;
     justify-content: center;
 
 }
- .one, .two, .three, .four{
+/*, .two, .three, .four*/
+ .one{
      display: flex;
      align-items: center;
      justify-content: center;
@@ -58,13 +66,40 @@ h4{
 
  }
  .two{
+     display: flex;
+     align-items: center;
+     justify-content: center;
      background-color: #7CB06C;
+     border-radius: 100%;
+     height: 100px;
+     width: 100px;
+     color: white;
+     border: 7px solid white;
+     font-family: 'Anton', sans-serif;
  }
  .three{
+     display: flex;
+     align-items: center;
+     justify-content: center;
      background-color: #EB9D3A;
+     border-radius: 100%;
+     height: 100px;
+     width: 100px;
+     color: white;
+     border: 7px solid white;
+     font-family: 'Anton', sans-serif;
  }
  .four{
+     display: flex;
+     align-items: center;
+     justify-content: center;
      background-color: #00ABA9;
+     border-radius: 100%;
+     height: 100px;
+     width: 100px;
+     color: white;
+     border: 7px solid white;
+     font-family: 'Anton', sans-serif;
  }
  h6{
      display: flex;
@@ -210,27 +245,75 @@ h4{
     justify-content: center;
     align-items: center;
 }
-.col-5{
-    font-family: 'Abel', sans-serif;
-    border: 1px solid black;
-}
+/*.col-5{*/
+/*    font-family: 'Abel', sans-serif;*/
+/*    border: 1px solid black;*/
+/*}*/
 .col-1{
     font-family: 'Anton', sans-serif;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     margin-left: 15px;
+
 }
 .secondImg{
     margin-left: 13px;
     margin-bottom: 25px;
-    border: 7px solid grey;
+    width: 370px;
+    border: 7px solid #E6E6E6;
 }
 .macbook{
     margin-left: 13px;
     margin-top: 25px;
-    border: 7px solid grey;
+    width: 370px;
+    border: 7px solid #E6E6E6;
 }
 .man{
     margin-left: 13px;
     margin-top: 25px;
-    border: 7px solid grey;
+    width: 370px;
+    border: 7px solid #E6E6E6;
 }
+.security{
+    margin-left: 13px;
+    margin-top: 30px;
+    width: 370px;
+    border: 7px solid #E6E6E6;
+}
+@media screen and (min-width:768px){
+    .fa-bars{
+        margin-right: 25px;
+    }
+}
+@media screen and (min-width:768px){
+    /*.one, .two, .three, .four{*/
+    /*    display: flex;*/
+    /*    background-color: #E6563B;*/
+    /*    border-radius: 100%;*/
+    /*    height: 100px;*/
+    /*    width: 100px;*/
+    /*    color: white;*/
+    /*    border: 7px solid white;*/
+    /*    font-family: 'Anton', sans-serif;*/
+
+    /*}*/
+    .one{
+        float: right;
+    }
+    .two{
+        background-color: #7CB06C;
+        float: left;
+    }
+    .three{
+        background-color: #EB9D3A;
+        float: left;
+    }
+    .four{
+        background-color: #00ABA9;
+        float: right;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
