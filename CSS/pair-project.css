@@ -53,6 +53,7 @@ h4{
      width: 100px;
      color: white;
      border: 7px solid white;
+     font-family: 'Anton', sans-serif;
 
  }
  .two{
@@ -68,6 +69,7 @@ h4{
      display: flex;
      align-items: center;
      justify-content: center;
+     font-family: 'Abel', sans-serif;
  }
  /*.midTwo{*/
  /*    border: 2px solid black;*/
@@ -103,6 +105,8 @@ h4{
     float: right;
 
 }
-.mid{
-    /*border: 2px solid black;*/
+.project, .projectTwo{
+    font-family: 'Abel', sans-serif;
+    display: flex;
+    justify-content: flex-start;
 }
