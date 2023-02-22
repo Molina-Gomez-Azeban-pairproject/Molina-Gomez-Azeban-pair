@@ -59,9 +59,9 @@ h4{
      align-items: center;
      justify-content: center;
  }
- .midTwo{
-     border: 2px solid black;
- }
+ /*.midTwo{*/
+ /*    border: 2px solid black;*/
+ /*}*/
  .circle{
      height: 50px;
      width: 50px;
@@ -92,4 +92,7 @@ h4{
     width: 10%;
     float: right;
 
+}
+.mid{
+    /*border: 2px solid black;*/
 }
